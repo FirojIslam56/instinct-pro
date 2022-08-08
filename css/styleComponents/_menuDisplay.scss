@@ -1,0 +1,22 @@
+.right-side{
+    margin-left: 300px; 
+    transition: all 1s; 
+}
+.toggle-button{
+    top: 20px;
+    right: 30px;
+    position: fixed;
+    z-index: 1;
+}
+.toggle-button .menu-cls{
+    display: none;
+    z-index: 1;
+}
+.toggle-button .cross-cls{
+    display: none;
+    z-index: 1;
+}
+.toggle-button i{
+    font-size: 25px;
+    color: DodgerBlue ;
+}

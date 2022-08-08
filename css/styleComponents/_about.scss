@@ -1,0 +1,63 @@
+.about-sec{
+    padding: 50px 0;
+    .container-title{
+        text-align: center;
+    }
+    #aboutImg-2{
+        margin-top: 100px;
+    }
+
+
+    .title-content-ex{
+        display: flex;
+        overflow: hidden;
+        .left-ex{
+            width: 250px;
+            height: 200px;
+            background-color: #0B2B43;
+            color: white;
+            margin: 10px 5px;
+            padding: 10px;
+            text-align: center;
+            .fa-award{
+                font-size: 30px;
+                padding: 15px;
+            }
+        }
+        .right-ex{
+            min-height: 200px;
+            width: 50%;
+            margin: 10px 5px;
+            padding: 10px 20px;
+            text-align: left;
+            p{
+               
+                .fa-circle-check{
+                    color: lightseagreen;
+                    margin-right: 15px;
+                }
+            }  
+        }
+    }
+
+    .elementor-container{
+        display: flex;
+        .founder{
+            display: inline-flex;
+            #founderImg{
+                width: 70px;
+                height: 70px;
+                border-radius: 50%;
+            }
+            .founder-content{
+                padding: 10px 5px 5px 15px;   
+            }
+        }
+        .more-about-us{
+            button{
+                width: 140px;
+                margin: 15px 0 0 48px;
+            }
+        }
+    }
+}

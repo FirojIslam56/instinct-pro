@@ -1,0 +1,183 @@
+
+@media (max-width: 576px) {
+    /* Global css */
+    p{
+        font-size: 13px;
+    }
+    .container-title-box{
+        .container-title{
+            font-size: 18px !important;
+        }
+        .container-sub-title{
+            font-size: 12px;
+        }
+        .divider{
+            width: 200px;
+        }
+    }
+
+
+    /* Section css */
+    .banner-sec{
+        .banner{
+            height: 80vh;
+            .banner-content{
+                margin: 100px auto 0;
+                h1{
+                    font-size: 20px  !important;
+                }
+                h3{
+                    font-size: 16px !important ;
+                    font-weight: normal !important;
+                }
+                .banner-btn{
+                    margin-top: 15px !important;
+                }
+            }
+        }   
+    }
+
+    .padding_zero-section{
+        .padding_zero_row{
+            margin-top: 0px !important;
+        }
+    }
+
+    .about-sec{
+        #aboutImg-2{
+            margin-top: 25px;
+        }
+        .title-content-ex{
+            display: block;
+            .right-ex{
+                width: 100%;
+            }
+        }
+        .elementor-container{
+            display: block;
+        }
+    }
+
+    .our-team{
+        padding: 30px 0;
+        .panel-box{
+            margin: 10px 0;
+        }
+    }
+
+    .company-profile {
+        .business-overview{
+            .bo-title{
+                h3{
+                    font-size: 16px;
+                }
+            }
+            .bo-box{
+                padding: 20px 20px;
+            }
+        }
+        .personal-contacts{
+            h3{
+                font-size: 18px !important;
+            }
+        }
+    }
+
+    .contact{
+        .address-area{
+            .box{
+                padding: 0 10px;
+            }
+        }
+        .contact-form{
+            .form-heading{
+                h4{
+                    font-size: 18px;
+                    padding-top: 20px;
+                }
+                p{
+                    font-size: 16px;
+                }
+            }
+            form{
+                padding: 10px;
+            }
+        }
+    }
+
+    .footer{
+        h4{
+            font-size: 16px;
+        }
+        .social-icons{
+            font-size: 18px !important;
+            .footer-social-icon{
+                padding: 7px 5px !important;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    /* Global css */
+    .container-title-box{
+        .container-title{
+            font-size: 24px;
+        }
+    }
+
+
+    /* Section css */
+    .banner-sec{
+        .banner{
+            height: 80vh;
+            .banner-content{
+                margin: 100px auto 0;
+                h1{
+                    font-size: 32px ;
+                }
+                h3{
+                    font-size: 20px ;
+                }
+                .banner-btn{
+                    margin-top: 30px;
+                }
+            }
+        }   
+    }
+
+    .about-sec{
+        .about-content-title{
+            font-size: 16px;
+            padding-top: 25px;
+        }
+    }
+
+    .packaging-products-sec{
+        .image-area{
+            display: block;text-align: center;
+        }
+    }
+
+    .csr{
+        .csr-box{
+            margin: 5px 0;
+            .csr-box-wrap{
+                margin: 10px 0;
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 992px) {
+    
+}
+
+
+@media (max-width: 1200px) {
+    
+}

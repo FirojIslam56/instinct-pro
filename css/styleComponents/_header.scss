@@ -1,0 +1,103 @@
+.header{
+    width: 100%;
+    position: fixed;
+    transition: .5s;
+    background-color: white;
+    z-index: 1000;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    .nav{
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 0;
+        &-menu{
+            transition: .3s;
+        }
+        &-list{
+            display: flex;
+            a{
+                padding: 3px 5px;
+                
+            }
+            
+            .sub-menu li{
+                
+                display: none;
+            }
+            .for-products-menu:hover{
+                .sub-menu li{
+                    display: block;
+                    a{
+                        color: orange;
+                        &:hover{
+                            color: blue;
+                        }
+                    }
+                }
+            }
+        }
+        &-icons{
+            cursor: pointer;
+            color: orangered;
+            
+            .header-social-icon{
+               transition: .2s;
+               &:hover{
+                transition: .2s;
+                transform: scale(1.5);
+               }
+            }
+        }
+        .nav-icons .header-icon{
+            padding: 0 10px;
+            font-size: 20px;
+        }
+
+
+
+
+        
+    }
+
+    .menu-button{
+        top: 15px;
+        right: 100px;
+        position: absolute;
+        display: none;
+        button{
+            background-color: transparent;
+            color: black;
+        }
+        .cm-btn{
+            font-size: 20px;
+            cursor: pointer;
+        }
+    }
+}
+@media only screen and (max-width: 950px) {
+    .header{
+        .nav{
+            display: block;
+            .nav-menu{
+                padding: 10px 0;
+                height: 0;
+                overflow: hidden;
+                transition: .3s;
+            }
+            .nav-list{
+                display: block;
+            }
+
+        }
+
+        .menu-button{
+            display: block;
+            #crossId{
+                display: none;
+            }
+        }
+    }
+  }
+

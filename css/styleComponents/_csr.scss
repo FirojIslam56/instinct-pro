@@ -1,0 +1,18 @@
+.csr {
+    .csr-box {
+        margin: 10px 0;
+        .csr-box-wrap {
+            text-align: center;
+            margin: 20px 0;
+            img {
+                border: 1px solid #ddd;
+                border-radius: 4px;
+                padding: 5px;
+            }   
+            p{
+                padding: 5px;
+                text-align: justify;
+            }
+        }
+    }
+}

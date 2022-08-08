@@ -1,0 +1,159 @@
+*,
+::before,
+::after {
+    margin: 0;
+    pad: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: black;
+    background-color: rgb(248,248,248);
+    transform: .5s;
+
+    a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+
+        &:hover {
+            color: blue;
+            
+        }
+    }
+    h1,h2,h3,h4,h5,h6{
+        font-weight: bold;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    i {
+        cursor: pointer;
+    }
+
+    p{
+        color: rgb(82, 80, 80);
+    }
+
+    button {
+        color: white;
+        background-color: lightseagreen;
+        border: none;
+        border-radius: 3px;
+        padding: 10px;
+        cursor: pointer;
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+
+/*------------Global Variable------------*/
+$box_shadow: 0 1rem 1rem rgba(0, 0, 0, .05);
+$hover_color: darkblue;
+$navbar_height: 50px;
+
+.title-big {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.sub-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.mybtn{
+    color: white;
+    font-weight: bold;
+    background-color: lightseagreen;
+    font-size: 14px;
+    transition: .3s;
+
+    &:hover {
+        background-color: $hover_color;
+        transition: .3s;
+    }
+}
+.seeMoreBtn{
+    width: auto;
+   // height: 30px;
+    padding: 5px 10px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    transition: .2s;
+    border-radius: 20px;
+    font-weight: bold;
+    &:hover{
+        background-color: orangered;
+        transition: .2s;
+        color: black;
+    }
+}
+
+
+
+.container-title-box{
+    text-align: center;
+    padding: 30px 0;
+    .container-title{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 32px;
+        text-transform: uppercase;
+        color: orangered;
+        span{
+            color: black;
+        }
+    }
+    .container-sub-title{
+        color: rgb(119, 117, 117);
+        text-transform: uppercase;
+        font-family: cursive;
+        font-size: 16px;
+    }
+}
+
+.my-title{
+    color: rgb(97, 96, 96);
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*------Dividor----------*/
+.divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+.divider::after,
+.divider::before {
+    content: "";
+    border: 1px solid orangered;
+    flex: 1;
+}
+.divider:not(:empty)::before {
+    margin-right: 0.25em;
+}
+.divider:not(:empty)::after {
+    margin-left: 0.25em;
+}

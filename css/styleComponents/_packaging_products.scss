@@ -1,0 +1,26 @@
+.packaging-products-sec {
+    .image-area {
+        display: flex;
+        img {
+            width: 160px;
+            height: 220px;
+            padding: 4px;
+            margin: 0 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 5px
+        }
+    }
+    .content-area{
+        p{
+            text-align: justify;
+        }
+        #wipingImgId{
+            width: 230px;
+            height: 80px;
+            padding: 5px;
+            margin: 10px 0;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 5px
+        }
+    }
+}

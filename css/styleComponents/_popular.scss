@@ -1,0 +1,90 @@
+#popular{
+    .headeing{
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .product-nav{
+         li{
+             padding: 5px 10px;
+             cursor: pointer;
+             &:hover{
+                 color: red;
+             }
+         }
+     }
+     .product-filter-active{
+        color: red;
+        font-weight: bold;
+    }
+    .item{
+        width: 307px;
+        height: auto;
+         background-color: #eeecec;
+         margin: 8px;
+         display: inline-block;
+         text-align: center;
+         overflow: hidden;
+         border: 2px solid gray;
+         border-radius: 5px;
+         img{
+             width: 100%;
+             height: 270px;
+             cursor: pointer;
+             overflow: hidden;
+             transition: .3s;
+         }
+         .item-content{
+             padding: 10px 0;
+         }
+         .food-title{
+             font-size: 20px;
+             
+         }
+         span{
+             text-decoration: line-through;
+             font-size: 13px;
+         }
+         a{
+             background-color: #30925c;
+             margin-left: 20px;
+             padding: 2px 5px;
+             border-radius: 4px;
+             color: white;
+             &:hover{
+                 background-color: darkblue;
+             }
+         }
+
+
+         
+     }
+}
+    
+
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
